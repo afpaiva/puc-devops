@@ -56,6 +56,10 @@ Start Docker service
 
 Run a Docker file
 
-`$ docker build -t (username)/(nomedocontainer) .`
+`$ docker build -t (username)/(nomedorepositorio) .`
 
+RUN - comando
 
+CMD - comando apos o build
+
+ENTRYPOINT - 
