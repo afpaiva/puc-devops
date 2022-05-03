@@ -62,4 +62,10 @@ RUN - comando
 
 CMD - comando apos o build
 
-ENTRYPOINT - 
+ENTRYPOINT - durante
+
+ADD - transfere um arquivo para a imagem
+
+EXPOSE - dispõe uma porta
+
+VOLUME - cria um volume
