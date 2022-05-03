@@ -1,0 +1,36 @@
+Instalação: https://docs.docker.com/get-docker/
+Guias:https://docs.docker.com/get-started/overview/
+Introdução:https://docs.docker.com/get-started/
+Referencias de execução:https://docs.docker.com/engine/reference/commandline/run/
+
+Outras referencias para consulta: https://stack.desenvolvedor.expert/appendix/docker/comandos.html
+
+
+Comandos docker:
+
+docker run hello-world
+
+docker pull ubuntu
+
+docker image list
+
+docker run -it ubuntu
+
+docker exec -itd ubuntu
+
+docker ps -a e docker ps
+
+
+docker rm  container id
+
+Volumes:
+
+Criar uma pasta teste e criar um arquivo teste.txt
+
+docker exec -itd -v caminho da pasta:/etc/teste ubuntu
+
+Portas:
+
+docker run -dp 80:80 docker/getting-started
+
+
