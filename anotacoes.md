@@ -36,6 +36,8 @@ acessa o container em execução
 
 `$ docker images` - exibe as imagens
 
+`$ docker image ls` - exibe as imagens
+
 ### - VOLUMES
 
 `$ docker run --read-only -it --name seminarios -v /home/PUCMINAS/68626/anotacoes:/etc/Curso ubuntu /bin/bash`
@@ -76,4 +78,11 @@ WORKDIR - seleciona o diretorio para trabalhar
 
 # DOCKER COMPOSE
 
-`$ docker compose up`
+`$ docker-compose up -d`
+
+
+# DOCKER HUB
+
+`$ docker login`
+
+`$ docker tag username/original dockerhubusername/quecque` - renomeia a imagem
