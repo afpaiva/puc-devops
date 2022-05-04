@@ -73,3 +73,7 @@ VOLUME - cria um volume
 USER - nome do usuario do SO
 
 WORKDIR - seleciona o diretorio para trabalhar
+
+# DOCKER COMPOSE
+
+`$ docker compose up`
