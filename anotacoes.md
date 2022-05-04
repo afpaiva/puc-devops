@@ -69,3 +69,7 @@ ADD - transfere um arquivo para a imagem
 EXPOSE - dispõe uma porta
 
 VOLUME - cria um volume
+
+USER - nome do usuario do SO
+
+WORKDIR - seleciona o diretorio para trabalhar
