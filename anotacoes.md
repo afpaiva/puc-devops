@@ -86,3 +86,9 @@ WORKDIR - seleciona o diretorio para trabalhar
 `$ docker login`
 
 `$ docker tag username/original dockerhubusername/quecque` - renomeia a imagem
+
+`$ docker push dockerhubusername/quecque` - push sem usar tags
+
+`$ docker inspect` - dados do container
+
+`$ docker restart iddocontainer`
